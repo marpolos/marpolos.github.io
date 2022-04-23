@@ -11,7 +11,8 @@ class Projects extends React.Component {
     return (
       <>
       <Header />
-      <main class="infos-sobre-mim">
+      <main class="main">
+        <section>
         <h1>Projetos</h1>
         <hr />
         <article class="projetos">
@@ -45,6 +46,7 @@ class Projects extends React.Component {
             </li>
           </ol>
         </article>
+        </section>
       </main>
       <Footer />
       </>
