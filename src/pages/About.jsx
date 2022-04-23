@@ -8,7 +8,7 @@ class About extends React.Component {
     return (
       <>
       <Header />
-      <main class="infos-sobre-mim">
+      <main class="main">
         <h1>Sobre mim</h1>
         <hr />
         <article>

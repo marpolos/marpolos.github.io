@@ -95,6 +95,13 @@ body {
   background-color: #ea9e8dff;
 }
 
+/*CONTATOS */
+.utilities {
+  text-decoration: none;
+  line-height: 1.5em;
+  color: #eef4d4ff;
+}
+
 /*FOOTER*/
 .footer {
   display: block;

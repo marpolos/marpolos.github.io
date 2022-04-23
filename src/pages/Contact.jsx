@@ -8,7 +8,7 @@ class Contact extends React.Component {
     return (
       <>
       <Header />
-      <main class="infos-sobre-mim">
+      <main class="main">
         <h1>Contatos</h1>
         <hr />
         <article>
@@ -18,7 +18,7 @@ class Contact extends React.Component {
             return (
               <li key={ index } className="lists">
                 <a href={ url.url}
-                  className="lists itens-menu"
+                  className="lists utilities"
                   _blank>{ url.page }
                 </a>
               </li>
