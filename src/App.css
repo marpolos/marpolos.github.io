@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+/*COLORS */
+/*
+--light-goldenrod-yellow: #eef4d4ff;
+--tea-green: #daefb3ff;
+--vivid-tangerine: #ea9e8dff;
+--english-vermillion: #d64550ff;
+--dark-jungle-green: #1c2826ff;
+*/
+
+/* GERAL */
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-family: 'Dosis', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*BODY */
+body {
+  background-color: #1c2826ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*SCROLL */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*HEADER */
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: #d64550ff;
 }
 
-.App-link {
-  color: #61dafb;
+.header img {
+  max-width: 50px;
+  margin-top: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.itens-menu {
+  color: #daefb3ff;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+}
+
+.itens-menu:hover {
+  background-color: #ea9e8dff;
+}
+
+/*MAIN */
+.main {
+  max-width: 60%;
+  border: 3px dashed #d64550ff;
+  margin: 10px auto 50px;
+}
+
+.main h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  color: #eef4d4ff;
+}
+
+/*FOOTER*/
+.footer {
+  display: block;
+  bottom: 5px;
+  color: #daefb3ff;
+  text-align: center;
 }
