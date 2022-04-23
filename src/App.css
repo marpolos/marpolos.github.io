@@ -91,6 +91,10 @@ body {
   line-height: 1.4em;
 }
 
+.lists:hover {
+  background-color: #ea9e8dff;
+}
+
 /*FOOTER*/
 .footer {
   display: block;
