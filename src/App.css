@@ -55,13 +55,40 @@ body {
   max-width: 60%;
   border: 3px dashed #d64550ff;
   margin: 10px auto 50px;
+  display: flex;
+  padding: 5px;
+  gap: 15px;
 }
 
 .main h1 {
   font-family: 'Dosis', sans-serif;
   font-size: 50px;
   font-weight: 700;
+  color: #daefb3ff;
+  text-align: center;
+}
+
+.main h2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  color: #daefb3ff;
+  text-align: center;
+}
+
+.main img {
+  border: 5px solid #ea9e8dff;
+  max-width: 40%;
+}
+
+.infos-main article{
+  margin-bottom: 15px;
+}
+
+.infos-main p, li{
   color: #eef4d4ff;
+  text-align: justify;
+  line-height: 1.4em;
 }
 
 /*FOOTER*/
